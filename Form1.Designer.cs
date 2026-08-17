@@ -136,7 +136,6 @@
             this.Name = "MDI_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "My Daily Wins";
-            this.Shown += new System.EventHandler(this.MdiForm_Shown);
             this.MdiMenuStrip.ResumeLayout(false);
             this.MdiMenuStrip.PerformLayout();
             this.ResumeLayout(false);

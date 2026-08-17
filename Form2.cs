@@ -16,5 +16,23 @@ namespace My_Daily_Wins_Project
         {
             InitializeComponent();
         }
+
+
+        private void btnSingUp_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(txtFirstNameValue.Text))
+                MessageBox.Show("Invalide First Name", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            else if (string.IsNullOrWhiteSpace(txtLastNameValue.Text))
+                MessageBox.Show("Invalide Last Name", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            else
+            {
+                MDI_Form MdiForm = new MDI_Form();
+                this.Hide();
+                MdiForm.ShowDialog();
+                this.Close();
+            }
+        }
     }
 }

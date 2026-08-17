@@ -16,7 +16,7 @@ namespace My_Daily_Wins_Project
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MDI_Form());
+            Application.Run(new frmWelcome());
         }
     }
 }
