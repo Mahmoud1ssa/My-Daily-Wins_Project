@@ -12,11 +12,24 @@ using My_Daily_Wins_Project.Properties;
 
 namespace My_Daily_Wins_Project
 {
-    public partial class MdiForm : Form
+    public partial class MDI_Form : Form
     {
-        public MdiForm()
+        //
+        //              frmWelcome work...
+        //
+        private Form frmWelcome = new frmWelcome();
+
+        private void frmWelcome_Show()
+        {
+            frmWelcome.MdiParent = this;
+            frmWelcome.Show();
+        }
+
+        public MDI_Form()
         {
             InitializeComponent();
+
+            frmWelcome_Show();
         }
 
         private void mdiChangeBackGround()

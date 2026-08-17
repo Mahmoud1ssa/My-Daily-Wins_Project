@@ -1,6 +1,6 @@
 ﻿namespace My_Daily_Wins_Project
 {
-    partial class MdiForm
+    partial class MDI_Form
     {
         /// <summary>
         /// Required designer variable.
@@ -35,9 +35,11 @@
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.yearLogToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.monthlyLogToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.weeklyLogToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.addToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.statusToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.yearlyStatusToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.monthlyStatusToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.MdiMenuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -46,7 +48,8 @@
             this.MdiMenuStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.MdiMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.addEditToolStripMenuItem,
-            this.totalWinsToolStripMenuItem});
+            this.totalWinsToolStripMenuItem,
+            this.statusToolStripMenuItem});
             this.MdiMenuStrip.Location = new System.Drawing.Point(0, 0);
             this.MdiMenuStrip.Name = "MdiMenuStrip";
             this.MdiMenuStrip.Size = new System.Drawing.Size(1215, 28);
@@ -66,8 +69,7 @@
             // 
             this.totalWinsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.yearLogToolStripMenuItem,
-            this.monthlyLogToolStripMenuItem,
-            this.weeklyLogToolStripMenuItem});
+            this.monthlyLogToolStripMenuItem});
             this.totalWinsToolStripMenuItem.Name = "totalWinsToolStripMenuItem";
             this.totalWinsToolStripMenuItem.Size = new System.Drawing.Size(48, 24);
             this.totalWinsToolStripMenuItem.Text = "Log";
@@ -90,12 +92,6 @@
             this.monthlyLogToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.monthlyLogToolStripMenuItem.Text = "Monthly Log";
             // 
-            // weeklyLogToolStripMenuItem
-            // 
-            this.weeklyLogToolStripMenuItem.Name = "weeklyLogToolStripMenuItem";
-            this.weeklyLogToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.weeklyLogToolStripMenuItem.Text = "Weekly Log";
-            // 
             // addToolStripMenuItem
             // 
             this.addToolStripMenuItem.Name = "addToolStripMenuItem";
@@ -108,15 +104,37 @@
             this.editToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.editToolStripMenuItem.Text = "Edit";
             // 
-            // MdiForm
+            // statusToolStripMenuItem
+            // 
+            this.statusToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.yearlyStatusToolStripMenuItem,
+            this.monthlyStatusToolStripMenuItem});
+            this.statusToolStripMenuItem.Name = "statusToolStripMenuItem";
+            this.statusToolStripMenuItem.Size = new System.Drawing.Size(63, 24);
+            this.statusToolStripMenuItem.Text = "Status";
+            // 
+            // yearlyStatusToolStripMenuItem
+            // 
+            this.yearlyStatusToolStripMenuItem.Name = "yearlyStatusToolStripMenuItem";
+            this.yearlyStatusToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.yearlyStatusToolStripMenuItem.Text = "Yearly Status";
+            // 
+            // monthlyStatusToolStripMenuItem
+            // 
+            this.monthlyStatusToolStripMenuItem.Name = "monthlyStatusToolStripMenuItem";
+            this.monthlyStatusToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.monthlyStatusToolStripMenuItem.Text = "Monthly Status";
+            // 
+            // MDI_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1215, 558);
+            this.ClientSize = new System.Drawing.Size(1215, 631);
             this.Controls.Add(this.MdiMenuStrip);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.MdiMenuStrip;
-            this.Name = "MdiForm";
+            this.Name = "MDI_Form";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "My Daily Wins";
             this.Shown += new System.EventHandler(this.MdiForm_Shown);
             this.MdiMenuStrip.ResumeLayout(false);
@@ -134,9 +152,11 @@
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem yearLogToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem monthlyLogToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem weeklyLogToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem addToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem editToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem statusToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem yearlyStatusToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem monthlyStatusToolStripMenuItem;
     }
 }
 
