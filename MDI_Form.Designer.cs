@@ -31,15 +31,15 @@
             this.components = new System.ComponentModel.Container();
             this.MdiMenuStrip = new System.Windows.Forms.MenuStrip();
             this.addEditToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.totalWinsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.yearLogToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.monthlyLogToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.addToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.totalWinsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.yearLogToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.monthlyLogToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.yearlyStatusToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.monthlyStatusToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.MdiMenuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -65,6 +65,19 @@
             this.addEditToolStripMenuItem.Size = new System.Drawing.Size(83, 24);
             this.addEditToolStripMenuItem.Text = "Add/Edit";
             // 
+            // addToolStripMenuItem
+            // 
+            this.addToolStripMenuItem.Name = "addToolStripMenuItem";
+            this.addToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.addToolStripMenuItem.Text = "Add";
+            this.addToolStripMenuItem.Click += new System.EventHandler(this.addToolStripMenuItem_Click);
+            // 
+            // editToolStripMenuItem
+            // 
+            this.editToolStripMenuItem.Name = "editToolStripMenuItem";
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.editToolStripMenuItem.Text = "Edit";
+            // 
             // totalWinsToolStripMenuItem
             // 
             this.totalWinsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -74,35 +87,17 @@
             this.totalWinsToolStripMenuItem.Size = new System.Drawing.Size(48, 24);
             this.totalWinsToolStripMenuItem.Text = "Log";
             // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
-            // 
             // yearLogToolStripMenuItem
             // 
             this.yearLogToolStripMenuItem.Name = "yearLogToolStripMenuItem";
-            this.yearLogToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.yearLogToolStripMenuItem.Size = new System.Drawing.Size(175, 26);
             this.yearLogToolStripMenuItem.Text = "Yearly Log";
             // 
             // monthlyLogToolStripMenuItem
             // 
             this.monthlyLogToolStripMenuItem.Name = "monthlyLogToolStripMenuItem";
-            this.monthlyLogToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.monthlyLogToolStripMenuItem.Size = new System.Drawing.Size(175, 26);
             this.monthlyLogToolStripMenuItem.Text = "Monthly Log";
-            // 
-            // addToolStripMenuItem
-            // 
-            this.addToolStripMenuItem.Name = "addToolStripMenuItem";
-            this.addToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.addToolStripMenuItem.Text = "Add";
-            // 
-            // editToolStripMenuItem
-            // 
-            this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.editToolStripMenuItem.Text = "Edit";
             // 
             // statusToolStripMenuItem
             // 
@@ -116,14 +111,20 @@
             // yearlyStatusToolStripMenuItem
             // 
             this.yearlyStatusToolStripMenuItem.Name = "yearlyStatusToolStripMenuItem";
-            this.yearlyStatusToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.yearlyStatusToolStripMenuItem.Size = new System.Drawing.Size(190, 26);
             this.yearlyStatusToolStripMenuItem.Text = "Yearly Status";
             // 
             // monthlyStatusToolStripMenuItem
             // 
             this.monthlyStatusToolStripMenuItem.Name = "monthlyStatusToolStripMenuItem";
-            this.monthlyStatusToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.monthlyStatusToolStripMenuItem.Size = new System.Drawing.Size(190, 26);
             this.monthlyStatusToolStripMenuItem.Text = "Monthly Status";
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
             // MDI_Form
             // 

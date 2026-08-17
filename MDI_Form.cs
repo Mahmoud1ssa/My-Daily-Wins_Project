@@ -18,5 +18,10 @@ namespace My_Daily_Wins_Project
         {
             InitializeComponent();
         }
+
+        private void addToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
