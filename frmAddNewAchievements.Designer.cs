@@ -30,13 +30,13 @@
         {
             this.tcAddNewAchievements = new System.Windows.Forms.TabControl();
             this.tpRecord = new System.Windows.Forms.TabPage();
-            this.lblDateValue = new System.Windows.Forms.Label();
+            this.lblRecordDateValue = new System.Windows.Forms.Label();
             this.btnNext = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
-            this.lblDate = new System.Windows.Forms.Label();
-            this.lblDay = new System.Windows.Forms.Label();
+            this.lblRecordDate = new System.Windows.Forms.Label();
+            this.lblRecordDay = new System.Windows.Forms.Label();
             this.txtRecord = new System.Windows.Forms.TextBox();
-            this.lblDayValue = new System.Windows.Forms.Label();
+            this.lblRecordDayValue = new System.Windows.Forms.Label();
             this.lblTitle2 = new System.Windows.Forms.Label();
             this.lblTitle1 = new System.Windows.Forms.Label();
             this.tpSatisfaction = new System.Windows.Forms.TabPage();
@@ -51,6 +51,10 @@
             this.tbSatisfactionValue = new System.Windows.Forms.TrackBar();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.lblSatisfactionDate = new System.Windows.Forms.Label();
+            this.lblSatisfactionDateValue = new System.Windows.Forms.Label();
+            this.lblSatisfactionDay = new System.Windows.Forms.Label();
+            this.lblSatisfactionDayValue = new System.Windows.Forms.Label();
             this.tcAddNewAchievements.SuspendLayout();
             this.tpRecord.SuspendLayout();
             this.tpSatisfaction.SuspendLayout();
@@ -77,13 +81,13 @@
             // 
             this.tpRecord.BackgroundImage = global::My_Daily_Wins_Project.Properties.Resources.Rise_To_The_Top_image;
             this.tpRecord.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.tpRecord.Controls.Add(this.lblDateValue);
+            this.tpRecord.Controls.Add(this.lblRecordDateValue);
             this.tpRecord.Controls.Add(this.btnNext);
             this.tpRecord.Controls.Add(this.btnClose);
-            this.tpRecord.Controls.Add(this.lblDate);
-            this.tpRecord.Controls.Add(this.lblDay);
+            this.tpRecord.Controls.Add(this.lblRecordDate);
+            this.tpRecord.Controls.Add(this.lblRecordDay);
             this.tpRecord.Controls.Add(this.txtRecord);
-            this.tpRecord.Controls.Add(this.lblDayValue);
+            this.tpRecord.Controls.Add(this.lblRecordDayValue);
             this.tpRecord.Controls.Add(this.lblTitle2);
             this.tpRecord.Controls.Add(this.lblTitle1);
             this.tpRecord.Location = new System.Drawing.Point(4, 25);
@@ -94,16 +98,16 @@
             this.tpRecord.Text = "Record";
             this.tpRecord.UseVisualStyleBackColor = true;
             // 
-            // lblDateValue
+            // lblRecordDateValue
             // 
-            this.lblDateValue.AutoSize = true;
-            this.lblDateValue.BackColor = System.Drawing.SystemColors.Control;
-            this.lblDateValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDateValue.Location = new System.Drawing.Point(137, 41);
-            this.lblDateValue.Name = "lblDateValue";
-            this.lblDateValue.Size = new System.Drawing.Size(90, 25);
-            this.lblDateValue.TabIndex = 6;
-            this.lblDateValue.Text = "1/2/2000";
+            this.lblRecordDateValue.AutoSize = true;
+            this.lblRecordDateValue.BackColor = System.Drawing.SystemColors.Control;
+            this.lblRecordDateValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRecordDateValue.Location = new System.Drawing.Point(137, 41);
+            this.lblRecordDateValue.Name = "lblRecordDateValue";
+            this.lblRecordDateValue.Size = new System.Drawing.Size(90, 25);
+            this.lblRecordDateValue.TabIndex = 6;
+            this.lblRecordDateValue.Text = "1/2/2000";
             // 
             // btnNext
             // 
@@ -137,27 +141,27 @@
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
-            // lblDate
+            // lblRecordDate
             // 
-            this.lblDate.AutoSize = true;
-            this.lblDate.BackColor = System.Drawing.SystemColors.Control;
-            this.lblDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDate.Location = new System.Drawing.Point(82, 41);
-            this.lblDate.Name = "lblDate";
-            this.lblDate.Size = new System.Drawing.Size(59, 25);
-            this.lblDate.TabIndex = 7;
-            this.lblDate.Text = "Date:";
+            this.lblRecordDate.AutoSize = true;
+            this.lblRecordDate.BackColor = System.Drawing.SystemColors.Control;
+            this.lblRecordDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRecordDate.Location = new System.Drawing.Point(82, 41);
+            this.lblRecordDate.Name = "lblRecordDate";
+            this.lblRecordDate.Size = new System.Drawing.Size(59, 25);
+            this.lblRecordDate.TabIndex = 7;
+            this.lblRecordDate.Text = "Date:";
             // 
-            // lblDay
+            // lblRecordDay
             // 
-            this.lblDay.AutoSize = true;
-            this.lblDay.BackColor = System.Drawing.SystemColors.Control;
-            this.lblDay.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDay.Location = new System.Drawing.Point(736, 41);
-            this.lblDay.Name = "lblDay";
-            this.lblDay.Size = new System.Drawing.Size(53, 25);
-            this.lblDay.TabIndex = 4;
-            this.lblDay.Text = "Day:";
+            this.lblRecordDay.AutoSize = true;
+            this.lblRecordDay.BackColor = System.Drawing.SystemColors.Control;
+            this.lblRecordDay.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRecordDay.Location = new System.Drawing.Point(736, 41);
+            this.lblRecordDay.Name = "lblRecordDay";
+            this.lblRecordDay.Size = new System.Drawing.Size(53, 25);
+            this.lblRecordDay.TabIndex = 4;
+            this.lblRecordDay.Text = "Day:";
             // 
             // txtRecord
             // 
@@ -169,16 +173,16 @@
             this.txtRecord.Size = new System.Drawing.Size(794, 169);
             this.txtRecord.TabIndex = 13;
             // 
-            // lblDayValue
+            // lblRecordDayValue
             // 
-            this.lblDayValue.AutoSize = true;
-            this.lblDayValue.BackColor = System.Drawing.SystemColors.Control;
-            this.lblDayValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDayValue.Location = new System.Drawing.Point(786, 41);
-            this.lblDayValue.Name = "lblDayValue";
-            this.lblDayValue.Size = new System.Drawing.Size(95, 25);
-            this.lblDayValue.TabIndex = 5;
-            this.lblDayValue.Text = "Thursday";
+            this.lblRecordDayValue.AutoSize = true;
+            this.lblRecordDayValue.BackColor = System.Drawing.SystemColors.Control;
+            this.lblRecordDayValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRecordDayValue.Location = new System.Drawing.Point(786, 41);
+            this.lblRecordDayValue.Name = "lblRecordDayValue";
+            this.lblRecordDayValue.Size = new System.Drawing.Size(95, 25);
+            this.lblRecordDayValue.TabIndex = 5;
+            this.lblRecordDayValue.Text = "Thursday";
             // 
             // lblTitle2
             // 
@@ -207,6 +211,10 @@
             // 
             this.tpSatisfaction.BackgroundImage = global::My_Daily_Wins_Project.Properties.Resources.Rise_To_The_Top_image;
             this.tpSatisfaction.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tpSatisfaction.Controls.Add(this.lblSatisfactionDayValue);
+            this.tpSatisfaction.Controls.Add(this.lblSatisfactionDay);
+            this.tpSatisfaction.Controls.Add(this.lblSatisfactionDateValue);
+            this.tpSatisfaction.Controls.Add(this.lblSatisfactionDate);
             this.tpSatisfaction.Controls.Add(this.btnSubmit);
             this.tpSatisfaction.Controls.Add(this.btnBack);
             this.tpSatisfaction.Controls.Add(this.lblTitle3);
@@ -346,6 +354,50 @@
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
             // 
+            // lblSatisfactionDate
+            // 
+            this.lblSatisfactionDate.AutoSize = true;
+            this.lblSatisfactionDate.BackColor = System.Drawing.SystemColors.Control;
+            this.lblSatisfactionDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSatisfactionDate.Location = new System.Drawing.Point(82, 41);
+            this.lblSatisfactionDate.Name = "lblSatisfactionDate";
+            this.lblSatisfactionDate.Size = new System.Drawing.Size(59, 25);
+            this.lblSatisfactionDate.TabIndex = 18;
+            this.lblSatisfactionDate.Text = "Date:";
+            // 
+            // lblSatisfactionDateValue
+            // 
+            this.lblSatisfactionDateValue.AutoSize = true;
+            this.lblSatisfactionDateValue.BackColor = System.Drawing.SystemColors.Control;
+            this.lblSatisfactionDateValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSatisfactionDateValue.Location = new System.Drawing.Point(137, 41);
+            this.lblSatisfactionDateValue.Name = "lblSatisfactionDateValue";
+            this.lblSatisfactionDateValue.Size = new System.Drawing.Size(90, 25);
+            this.lblSatisfactionDateValue.TabIndex = 19;
+            this.lblSatisfactionDateValue.Text = "1/2/2000";
+            // 
+            // lblSatisfactionDay
+            // 
+            this.lblSatisfactionDay.AutoSize = true;
+            this.lblSatisfactionDay.BackColor = System.Drawing.SystemColors.Control;
+            this.lblSatisfactionDay.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSatisfactionDay.Location = new System.Drawing.Point(736, 41);
+            this.lblSatisfactionDay.Name = "lblSatisfactionDay";
+            this.lblSatisfactionDay.Size = new System.Drawing.Size(53, 25);
+            this.lblSatisfactionDay.TabIndex = 20;
+            this.lblSatisfactionDay.Text = "Day:";
+            // 
+            // lblSatisfactionDayValue
+            // 
+            this.lblSatisfactionDayValue.AutoSize = true;
+            this.lblSatisfactionDayValue.BackColor = System.Drawing.SystemColors.Control;
+            this.lblSatisfactionDayValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSatisfactionDayValue.Location = new System.Drawing.Point(786, 41);
+            this.lblSatisfactionDayValue.Name = "lblSatisfactionDayValue";
+            this.lblSatisfactionDayValue.Size = new System.Drawing.Size(95, 25);
+            this.lblSatisfactionDayValue.TabIndex = 21;
+            this.lblSatisfactionDayValue.Text = "Thursday";
+            // 
             // frmAddNewAchievements
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -376,10 +428,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lblDay;
-        private System.Windows.Forms.Label lblDayValue;
-        private System.Windows.Forms.Label lblDateValue;
-        private System.Windows.Forms.Label lblDate;
+        private System.Windows.Forms.Label lblRecordDay;
+        private System.Windows.Forms.Label lblRecordDayValue;
+        private System.Windows.Forms.Label lblRecordDateValue;
+        private System.Windows.Forms.Label lblRecordDate;
         private System.Windows.Forms.Label lblTitle1;
         private System.Windows.Forms.Label lblTitle2;
         private System.Windows.Forms.TextBox txtRecord;
@@ -399,5 +451,9 @@
         private System.Windows.Forms.Label lblTitle3;
         private System.Windows.Forms.Button btnSubmit;
         private System.Windows.Forms.Button btnBack;
+        private System.Windows.Forms.Label lblSatisfactionDayValue;
+        private System.Windows.Forms.Label lblSatisfactionDay;
+        private System.Windows.Forms.Label lblSatisfactionDateValue;
+        private System.Windows.Forms.Label lblSatisfactionDate;
     }
 }
