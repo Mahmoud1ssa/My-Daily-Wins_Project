@@ -17,11 +17,14 @@ namespace My_Daily_Wins_Project
         public MDI_Form()
         {
             InitializeComponent();
+
         }
 
         private void addToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            frmAddNewAchievements AddNewAchievementsForm = new frmAddNewAchievements();
+            AddNewAchievementsForm.MdiParent = this;
+            AddNewAchievementsForm.Show();
         }
     }
 }

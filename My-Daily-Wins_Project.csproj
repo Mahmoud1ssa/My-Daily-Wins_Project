@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmAddNewAchievements.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddNewAchievements.Designer.cs">
+      <DependentUpon>frmAddNewAchievements.cs</DependentUpon>
+    </Compile>
     <Compile Include="MDI_Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAddNewAchievements.resx">
+      <DependentUpon>frmAddNewAchievements.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MDI_Form.resx">
       <DependentUpon>MDI_Form.cs</DependentUpon>
     </EmbeddedResource>
