@@ -40,6 +40,10 @@
             this.lblTitle2 = new System.Windows.Forms.Label();
             this.lblTitle1 = new System.Windows.Forms.Label();
             this.tpSatisfaction = new System.Windows.Forms.TabPage();
+            this.lblSatisfactionDayValue = new System.Windows.Forms.Label();
+            this.lblSatisfactionDay = new System.Windows.Forms.Label();
+            this.lblSatisfactionDateValue = new System.Windows.Forms.Label();
+            this.lblSatisfactionDate = new System.Windows.Forms.Label();
             this.btnSubmit = new System.Windows.Forms.Button();
             this.btnBack = new System.Windows.Forms.Button();
             this.lblTitle3 = new System.Windows.Forms.Label();
@@ -227,6 +231,50 @@
             this.tpSatisfaction.Text = "Satisfaction";
             this.tpSatisfaction.UseVisualStyleBackColor = true;
             // 
+            // lblSatisfactionDayValue
+            // 
+            this.lblSatisfactionDayValue.AutoSize = true;
+            this.lblSatisfactionDayValue.BackColor = System.Drawing.SystemColors.Control;
+            this.lblSatisfactionDayValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSatisfactionDayValue.Location = new System.Drawing.Point(786, 41);
+            this.lblSatisfactionDayValue.Name = "lblSatisfactionDayValue";
+            this.lblSatisfactionDayValue.Size = new System.Drawing.Size(95, 25);
+            this.lblSatisfactionDayValue.TabIndex = 21;
+            this.lblSatisfactionDayValue.Text = "Thursday";
+            // 
+            // lblSatisfactionDay
+            // 
+            this.lblSatisfactionDay.AutoSize = true;
+            this.lblSatisfactionDay.BackColor = System.Drawing.SystemColors.Control;
+            this.lblSatisfactionDay.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSatisfactionDay.Location = new System.Drawing.Point(736, 41);
+            this.lblSatisfactionDay.Name = "lblSatisfactionDay";
+            this.lblSatisfactionDay.Size = new System.Drawing.Size(53, 25);
+            this.lblSatisfactionDay.TabIndex = 20;
+            this.lblSatisfactionDay.Text = "Day:";
+            // 
+            // lblSatisfactionDateValue
+            // 
+            this.lblSatisfactionDateValue.AutoSize = true;
+            this.lblSatisfactionDateValue.BackColor = System.Drawing.SystemColors.Control;
+            this.lblSatisfactionDateValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSatisfactionDateValue.Location = new System.Drawing.Point(137, 41);
+            this.lblSatisfactionDateValue.Name = "lblSatisfactionDateValue";
+            this.lblSatisfactionDateValue.Size = new System.Drawing.Size(90, 25);
+            this.lblSatisfactionDateValue.TabIndex = 19;
+            this.lblSatisfactionDateValue.Text = "1/2/2000";
+            // 
+            // lblSatisfactionDate
+            // 
+            this.lblSatisfactionDate.AutoSize = true;
+            this.lblSatisfactionDate.BackColor = System.Drawing.SystemColors.Control;
+            this.lblSatisfactionDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSatisfactionDate.Location = new System.Drawing.Point(82, 41);
+            this.lblSatisfactionDate.Name = "lblSatisfactionDate";
+            this.lblSatisfactionDate.Size = new System.Drawing.Size(59, 25);
+            this.lblSatisfactionDate.TabIndex = 18;
+            this.lblSatisfactionDate.Text = "Date:";
+            // 
             // btnSubmit
             // 
             this.btnSubmit.AutoSize = true;
@@ -408,7 +456,7 @@
             this.DoubleBuffered = true;
             this.Name = "frmAddNewAchievements";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmAddNewAchievements";
+            this.Text = "Add New Wins";
             this.tcAddNewAchievements.ResumeLayout(false);
             this.tpRecord.ResumeLayout(false);
             this.tpRecord.PerformLayout();
