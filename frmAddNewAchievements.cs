@@ -25,7 +25,17 @@ namespace My_Daily_Wins_Project
 
         private void btnNext_Click(object sender, EventArgs e)
         {
-            
+            tcAddNewAchievements.SelectedIndex++;
+        }
+
+        private void tbSatisfactionValue_Scroll(object sender, EventArgs e)
+        {
+            lblSatisfactionValue.Text = tbSatisfactionValue.Value.ToString();
+        }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            tcAddNewAchievements.SelectedIndex--;
         }
     }
 }

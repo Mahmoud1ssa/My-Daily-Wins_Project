@@ -63,6 +63,26 @@ namespace My_Daily_Wins_Project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Crying_Emojie {
+            get {
+                object obj = ResourceManager.GetObject("Crying-Emojie", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Happy_Emojie {
+            get {
+                object obj = ResourceManager.GetObject("Happy-Emojie", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap My_Daily_Wins_Logo {
             get {
                 object obj = ResourceManager.GetObject("My-Daily-Wins_Logo", resourceCulture);
@@ -73,9 +93,39 @@ namespace My_Daily_Wins_Project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Normal_Emojie {
+            get {
+                object obj = ResourceManager.GetObject("Normal-Emojie", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Rise_To_The_Top_image {
             get {
                 object obj = ResourceManager.GetObject("Rise_To_The_Top_image", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sad_Emojie {
+            get {
+                object obj = ResourceManager.GetObject("Sad-Emojie", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Smile_Emojie {
+            get {
+                object obj = ResourceManager.GetObject("Smile-Emojie", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -98,12 +98,26 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\Crying-Emojie.png" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\My-Daily-Wins_Logo.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Rise_To_The_Top_image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sad-Emojie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Normal-Emojie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Smile-Emojie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Happy-Emojie.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
