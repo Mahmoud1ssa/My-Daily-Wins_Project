@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace My_Daily_Wins_Project
 {
-    public partial class frmAddNewAchievements : Form
+    public partial class frmAddNewWins : Form
     {
-        public frmAddNewAchievements()
+        public frmAddNewWins()
         {
             
             InitializeComponent();

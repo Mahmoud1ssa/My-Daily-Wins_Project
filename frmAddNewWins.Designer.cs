@@ -1,6 +1,6 @@
 ﻿namespace My_Daily_Wins_Project
 {
-    partial class frmAddNewAchievements
+    partial class frmAddNewWins
     {
         /// <summary>
         /// Required designer variable.
@@ -398,7 +398,7 @@
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
             // 
-            // frmAddNewAchievements
+            // frmAddNewWins
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -406,7 +406,7 @@
             this.ClientSize = new System.Drawing.Size(997, 503);
             this.Controls.Add(this.tcAddNewAchievements);
             this.DoubleBuffered = true;
-            this.Name = "frmAddNewAchievements";
+            this.Name = "frmAddNewWins";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Add New Wins";
             this.tcAddNewAchievements.ResumeLayout(false);
