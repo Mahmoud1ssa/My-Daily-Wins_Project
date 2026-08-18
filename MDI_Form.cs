@@ -22,9 +22,9 @@ namespace My_Daily_Wins_Project
 
         private void addToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmAddNewAchievements AddNewAchievementsForm = new frmAddNewAchievements();
-            AddNewAchievementsForm.MdiParent = this;
-            AddNewAchievementsForm.Show();
+            frmAddNewWins AddNewWinsForm = new frmAddNewWins();
+            AddNewWinsForm.MdiParent = this;
+            AddNewWinsForm.Show();
         }
     }
 }

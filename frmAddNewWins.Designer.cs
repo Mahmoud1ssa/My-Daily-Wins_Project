@@ -1,6 +1,6 @@
 ﻿namespace My_Daily_Wins_Project
 {
-    partial class frmAddNewAchievements
+    partial class frmAddNewWins
     {
         /// <summary>
         /// Required designer variable.
@@ -40,10 +40,6 @@
             this.lblTitle2 = new System.Windows.Forms.Label();
             this.lblTitle1 = new System.Windows.Forms.Label();
             this.tpSatisfaction = new System.Windows.Forms.TabPage();
-            this.lblSatisfactionDayValue = new System.Windows.Forms.Label();
-            this.lblSatisfactionDay = new System.Windows.Forms.Label();
-            this.lblSatisfactionDateValue = new System.Windows.Forms.Label();
-            this.lblSatisfactionDate = new System.Windows.Forms.Label();
             this.btnSubmit = new System.Windows.Forms.Button();
             this.btnBack = new System.Windows.Forms.Button();
             this.lblTitle3 = new System.Windows.Forms.Label();
@@ -402,51 +398,7 @@
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
             // 
-            // lblSatisfactionDate
-            // 
-            this.lblSatisfactionDate.AutoSize = true;
-            this.lblSatisfactionDate.BackColor = System.Drawing.SystemColors.Control;
-            this.lblSatisfactionDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSatisfactionDate.Location = new System.Drawing.Point(82, 41);
-            this.lblSatisfactionDate.Name = "lblSatisfactionDate";
-            this.lblSatisfactionDate.Size = new System.Drawing.Size(59, 25);
-            this.lblSatisfactionDate.TabIndex = 18;
-            this.lblSatisfactionDate.Text = "Date:";
-            // 
-            // lblSatisfactionDateValue
-            // 
-            this.lblSatisfactionDateValue.AutoSize = true;
-            this.lblSatisfactionDateValue.BackColor = System.Drawing.SystemColors.Control;
-            this.lblSatisfactionDateValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSatisfactionDateValue.Location = new System.Drawing.Point(137, 41);
-            this.lblSatisfactionDateValue.Name = "lblSatisfactionDateValue";
-            this.lblSatisfactionDateValue.Size = new System.Drawing.Size(90, 25);
-            this.lblSatisfactionDateValue.TabIndex = 19;
-            this.lblSatisfactionDateValue.Text = "1/2/2000";
-            // 
-            // lblSatisfactionDay
-            // 
-            this.lblSatisfactionDay.AutoSize = true;
-            this.lblSatisfactionDay.BackColor = System.Drawing.SystemColors.Control;
-            this.lblSatisfactionDay.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSatisfactionDay.Location = new System.Drawing.Point(736, 41);
-            this.lblSatisfactionDay.Name = "lblSatisfactionDay";
-            this.lblSatisfactionDay.Size = new System.Drawing.Size(53, 25);
-            this.lblSatisfactionDay.TabIndex = 20;
-            this.lblSatisfactionDay.Text = "Day:";
-            // 
-            // lblSatisfactionDayValue
-            // 
-            this.lblSatisfactionDayValue.AutoSize = true;
-            this.lblSatisfactionDayValue.BackColor = System.Drawing.SystemColors.Control;
-            this.lblSatisfactionDayValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSatisfactionDayValue.Location = new System.Drawing.Point(786, 41);
-            this.lblSatisfactionDayValue.Name = "lblSatisfactionDayValue";
-            this.lblSatisfactionDayValue.Size = new System.Drawing.Size(95, 25);
-            this.lblSatisfactionDayValue.TabIndex = 21;
-            this.lblSatisfactionDayValue.Text = "Thursday";
-            // 
-            // frmAddNewAchievements
+            // frmAddNewWins
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -454,7 +406,7 @@
             this.ClientSize = new System.Drawing.Size(997, 503);
             this.Controls.Add(this.tcAddNewAchievements);
             this.DoubleBuffered = true;
-            this.Name = "frmAddNewAchievements";
+            this.Name = "frmAddNewWins";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Add New Wins";
             this.tcAddNewAchievements.ResumeLayout(false);
