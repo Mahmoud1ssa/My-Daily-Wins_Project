@@ -28,10 +28,13 @@ namespace My_Daily_Wins_Project
 
             else
             {
-                MDI_Form MdiForm = new MDI_Form();
-                this.Hide();
-                MdiForm.ShowDialog();
-                this.Close();
+                if(MessageBox.Show($"Your Fullname Is {txtFirstNameValue.Text} {txtLastNameValue.Text} \nAre You Sure You Want To Continue?" , "Are You sure", MessageBoxButtons.YesNo, MessageBoxIcon.Question,MessageBoxDefaultButton.Button1) == DialogResult.Yes)
+                {
+                    MDI_Form MdiForm = new MDI_Form();
+                    this.Hide();
+                    MdiForm.ShowDialog();
+                    this.Close();
+                }
             }
         }
     }
