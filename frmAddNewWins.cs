@@ -37,5 +37,13 @@ namespace My_Daily_Wins_Project
         {
             tcAddNewAchievements.SelectedIndex--;
         }
+
+        private void btnSubmit_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Are You Sure You Want To Submit The Record?", "Are You sure", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1) == DialogResult.Yes)
+            {
+            }
+
+        }
     }
 }

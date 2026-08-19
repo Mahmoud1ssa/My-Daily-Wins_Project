@@ -40,6 +40,10 @@
             this.lblTitle2 = new System.Windows.Forms.Label();
             this.lblTitle1 = new System.Windows.Forms.Label();
             this.tpSatisfaction = new System.Windows.Forms.TabPage();
+            this.lblSatisfactionDayValue = new System.Windows.Forms.Label();
+            this.lblSatisfactionDay = new System.Windows.Forms.Label();
+            this.lblSatisfactionDateValue = new System.Windows.Forms.Label();
+            this.lblSatisfactionDate = new System.Windows.Forms.Label();
             this.btnSubmit = new System.Windows.Forms.Button();
             this.btnBack = new System.Windows.Forms.Button();
             this.lblTitle3 = new System.Windows.Forms.Label();
@@ -51,10 +55,6 @@
             this.tbSatisfactionValue = new System.Windows.Forms.TrackBar();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.lblSatisfactionDate = new System.Windows.Forms.Label();
-            this.lblSatisfactionDateValue = new System.Windows.Forms.Label();
-            this.lblSatisfactionDay = new System.Windows.Forms.Label();
-            this.lblSatisfactionDayValue = new System.Windows.Forms.Label();
             this.tcAddNewAchievements.SuspendLayout();
             this.tpRecord.SuspendLayout();
             this.tpSatisfaction.SuspendLayout();
@@ -285,6 +285,7 @@
             this.btnSubmit.TabIndex = 16;
             this.btnSubmit.Text = "Submit";
             this.btnSubmit.UseVisualStyleBackColor = false;
+            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
             // btnBack
             // 
